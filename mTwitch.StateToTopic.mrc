@@ -150,7 +150,7 @@ alias -l mTwitch.StateToTopic.Set {
     }
 
     ;; Sub-only chat mode
-    if (%SubObly) {
+    if (%SubOnly) {
       %Topic = %Topic [Subs Only]
     }
 
